@@ -9,11 +9,11 @@ angular.module('myApp')
             if (angular.isNumber(id)) {
                 // $location.path('inbox/email/' + id)
             }
-        }
+        };
 
         exports.deleteMessage = function (id, index) {
             this.messages.splice(index, 1);
-        }
+        };
 
         exports.getMessages = function () {
             var deferred = $q.defer();
@@ -29,4 +29,4 @@ angular.module('myApp')
         };
 
         return exports;
-    })
+    });

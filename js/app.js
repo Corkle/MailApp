@@ -3,7 +3,7 @@ var app = angular.module('myApp', [
 ]);
 
 app.config(function ($routeProvider) {
-    'use strict'
+    'use strict';
 
     $routeProvider
         .when('/inbox', {
